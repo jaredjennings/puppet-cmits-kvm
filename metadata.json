@@ -1,0 +1,12 @@
+{
+  "name": "jaredjennings/kvm",
+  "version": "0.1.0",
+  "author": "Jared Jennings",
+  "summary": "Provide the functionality of the kvm module from CMITS (boilerplate)",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jaredjennings/puppet-cmits-kvm",
+  "project_page": "https://github.com/jaredjennings/puppet-cmits-kvm",
+  "issues_url": "https://github.com/jaredjennings/puppet-cmits-kvm/issues",
+  "dependencies": []
+}
+
