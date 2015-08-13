@@ -26,7 +26,7 @@ class kvm::guest_random {
     if $virtual == "kvm" {
 # See \cite{rhel6-deployment}, \S 22.6, ``Persistent Module Loading.''
         file { "/etc/sysconfig/modules/virtio-rng.modules":
-            owner => root, group => 0, mode => 0755,
+            owner => root, group => 0, mode => '0755',
             content => "#!/bin/sh\nmodprobe virtio-rng\n",
         }
     }
